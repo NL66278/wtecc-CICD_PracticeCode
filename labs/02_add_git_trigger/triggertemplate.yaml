@@ -23,6 +23,6 @@ spec:
               name: cd-pipeline
           params:
           - name: repo-url
-            value: ${tt.params.repository}
+            value: $(tt.params.repository)
           - name: branch
-            value: ${tt.params.branch}
+            value: $(tt.params.branch)
